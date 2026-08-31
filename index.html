@@ -167,7 +167,7 @@
       50% { transform: translateY(-9px); }
     }
 
-     /* ---------- JNavigation ---------- */
+     /* JNav */
 
     .top-nav {
       position: fixed;
@@ -214,8 +214,6 @@
       margin: 0 auto;
       padding: 100px 0;
     }
-
-    /* ---------- Hero ---------- */
 
     .hero {
       min-height: 100svh;
@@ -293,7 +291,7 @@
       animation: float 2s ease-in-out infinite;
     }
 
-    /* ---------- Hero photo frame ---------- */
+    /* photossssss  */
 
     .hero-photo-wrap {
       position: relative;
@@ -347,7 +345,7 @@
       transform: rotate(3deg);
     }
 
-    /* ---------- Section headings ---------- */
+    /* Section */
 
     .section-heading {
       text-align: center;
@@ -414,7 +412,7 @@
       margin-top: 28px;
     }
 
-    /* ---------- Gallery ---------- */
+    /* ---------- The gal ---------- */
 
     .gallery {
       display: grid;
@@ -490,7 +488,7 @@
       opacity: 1;
     }
 
-    /* ---------- Reasons ---------- */
+    /* ---------- why i love geny ---------- */
 
     .reasons {
       display: grid;
@@ -527,7 +525,7 @@
       line-height: 1.75;
     }
 
-    /* ---------- Interactive gift ---------- */
+    /* ---------- sa gift ---------- */
 
     .gift-section {
       text-align: center;
@@ -656,7 +654,7 @@
       line-height: 1.9;
     }
 
-    /* ---------- Final section ---------- */
+    /* ---------- Katapusannn ---------- */
 
     .final-card {
       position: relative;
@@ -697,7 +695,7 @@
       font-size: .75rem;
     }
 
-    /* ---------- Lightbox ---------- */
+    /* ---------- Lighting butter bonia ---------- */
 
     .lightbox {
       position: fixed;
@@ -739,7 +737,7 @@
       font-size: 1.3rem;
     }
 
-    /* ---------- Scroll reveal ---------- */
+    /* ---------- Scroll whel yarn? ---------- */
 
     .reveal {
       opacity: 0;
@@ -752,7 +750,7 @@
       transform: translateY(0);
     }
 
-    /* ---------- Mobile ---------- */
+    /* ---------- How it will be viewed in mobile sheesh ---------- */
 
     @media (max-width: 800px) {
       .top-nav {
@@ -839,7 +837,7 @@
       }
     }
 
-    /* Respect reduced-motion preferences. */
+
     @media (prefers-reduced-motion: reduce) {
       html {
         scroll-behavior: auto;
@@ -872,21 +870,17 @@
 
   <div class="floating-hearts" id="floatingHearts" aria-hidden="true"></div>
 
-  <!-- Navigation -->
+  <!-- For nav -->
   <nav class="top-nav" aria-label="Main navigation">
     <a href="#home">Home</a>
     <a href="#letter">Letter</a>
-    <a href="#memories">Memories</a>
-    <a href="#reasons">Us</a>
-    <a href="#gift">One more thing</a>
+    <a href="#memories">Moments with you</a>
+    <a href="#reasons">Ily</a>
+    <a href="#gift">Surprise hehe</a>
   </nav>
 
   <main>
 
-    <!-- =======================================================
-         HERO
-         Replace images/hero.jpg with your favorite photo.
-         ======================================================= -->
     <section class="hero" id="home">
       <div class="hero-inner">
         <div class="hero-text reveal">
@@ -898,7 +892,7 @@
           </p>
           <div class="scroll-hint">
             <span>↓</span>
-            Keep scrolling hehe
+            Keep scrolling geny hehe
           </div>
         </div>
 
@@ -914,14 +908,9 @@
       </div>
     </section>
 
-    <!-- =======================================================
-         LETTER
-         Edit the paragraphs below to make it personal.
-         ======================================================= -->
     <section id="letter">
       <div class="section-heading reveal">
-        <div class="eyebrow">Something for geny to read hehe.</div>
-        <h3>I want you to know.</h3>
+        <div class="eyebrow">Something for geny to read.</div>
       </div>
 
       <article class="letter-card reveal">
@@ -967,17 +956,10 @@
       </article>
     </section>
 
-    <!-- =======================================================
-         PHOTO GALLERY
-         Put your photos in /images and use the filenames below.
-         ======================================================= -->
     <section id="memories">
       <div class="section-heading reveal">
         <div class="eyebrow">My favorite moments with bebe</div>
         <h3>A gallery of us.</h3>
-        <p>
-          Click any picture here pu
-        </p>
       </div>
 
       <div class="gallery">
@@ -1010,9 +992,6 @@
       </div>
     </section>
 
-    <!-- =======================================================
-         REASONS
-         ======================================================= -->
     <section id="reasons">
       <div class="section-heading reveal">
         <div class="eyebrow">I want you to know the </div>
@@ -1051,9 +1030,6 @@
       </div>
     </section>
 
-    <!-- =======================================================
-         INTERACTIVE GIFT
-         ======================================================= -->
     <section class="gift-section" id="gift">
       <div class="section-heading reveal">
         <div class="eyebrow">One last thing</div>
@@ -1094,12 +1070,9 @@
       </div>
     </section>
 
-    <!-- =======================================================
-         FINAL
-         ======================================================= -->
     <section>
       <div class="final-card reveal">
-        <div class="eyebrow" style="justify-content:center;">End of the page</div>
+        <div class="eyebrow" style="justify-content:center;">The End, I love you 3000.</div>
         <h3>Happy Birthday,<br><em>my love.</em> ♡</h3>
         <p>
           I love you.
@@ -1111,21 +1084,20 @@
   </main>
 
   <footer class="footer">
-    Ble hehe. ♡
+    Bleee hehe. ♡
   </footer>
 
-  <!-- Lightbox -->
   <div class="lightbox" id="lightbox" role="dialog" aria-modal="true"
        aria-label="Expanded photo">
     <button class="lightbox-close" id="lightboxClose" aria-label="Close photo">×</button>
     <img id="lightboxImage" src="" alt="Expanded memory">
   </div>
 
+  <audio id="birthdaySong" loop>
+    <source src="music/every-summertime.mp3" type="audio/mpeg">
+</audio>
+
   <script>
-    /* =========================================================
-       JAVASCRIPT
-       No external libraries required.
-       ========================================================= */
 
     const opening = document.getElementById("opening");
     const enterBtn = document.getElementById("enterBtn");
@@ -1137,12 +1109,17 @@
     const lightboxClose = document.getElementById("lightboxClose");
     const backTop = document.getElementById("backTop");
 
-    /* Opening screen */
     enterBtn.addEventListener("click", () => {
       opening.classList.add("hidden");
       document.body.classList.remove("no-scroll");
       createHeartBurst(14);
+
+      const song = document.getElementById("birthdaySong");
+  song.play().catch(error => {
+    console.log("Music could not start:", error);
     });
+    });
+
 
     /* Floating hearts */
     function createHeart() {
@@ -1171,7 +1148,7 @@
 
     setInterval(createHeart, 1300);
 
-    /* Scroll reveal */
+    /* Scroll whel ulets */
     const revealItems = document.querySelectorAll(".reveal");
 
     const revealObserver = new IntersectionObserver(
@@ -1210,7 +1187,7 @@
       }
     });
 
-    /* Gallery lightbox */
+    /* lightbox ng gal */
     document.querySelectorAll(".photo-card img").forEach((img) => {
       img.addEventListener("click", () => {
         lightboxImage.src = img.src;
@@ -1240,7 +1217,7 @@
       }
     });
 
-    /* Back to top */
+    /* balik taas */
     backTop.addEventListener("click", () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
